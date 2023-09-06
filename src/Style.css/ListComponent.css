@@ -1,0 +1,124 @@
+.listcomponent{
+     margin-top: 2rem;
+    height: 30rem;
+    width: 100rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.listimage{
+    margin: auto;
+    height: 100%;
+     width: 50%;
+   position: relative;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.listimage img{
+ position: absolute;
+ height: 80%;
+ width: 80%;
+ left: 5%;
+ transition: all 0.3s ease-in-out;
+}
+
+
+.listimage img:hover{
+  transform: scale(1.02);
+}
+.listparas{
+    padding: 0.5rem;
+    height: 100%;
+    width: 50%;
+}
+.listparasprice{
+    margin-top: 3rem;
+}
+.listparasname{
+    margin-top: 1rem;
+}
+.listparasdesc{
+    margin-top: 3rem;
+}
+.listparasbutton{
+   margin-top: 4rem;
+   padding: 1.5rem;
+   font-size: 1.6rem;
+   transition: all 0.3s ease-out;
+}
+.listparasbutton:hover{
+  background-color: #7EC8E3;
+  transform: scale(1.09);
+  font-size: 1.7rem;
+}
+
+@media (max-width: 950px) {
+    .listcomponent{
+        margin-top: 2rem;
+       height: 30rem;
+       width: 80rem;
+   }
+   .listimage img{
+    position: absolute;
+    width: 95%;
+    height: 70%;
+    left: 2%;
+   }
+
+}
+@media (max-width: 650px){
+    .listparasprice{
+        margin-top: 1rem;
+    }
+    .listparasname{
+        margin-top: 0.5rem;
+    }
+    .listparasdesc{
+        margin-top: 1rem;
+    }
+    .listparasbutton{
+        margin-top: 2rem;
+     }
+     .listcomponent{
+        height: 29rem;
+     }
+}
+@media (max-width: 450px) {
+      .listcomponent{
+        flex-direction: column;
+     height: 40rem;
+      }
+      .listimage{
+        width: 95%;
+        height: 150%;
+      }
+      .listparas{
+        width: 95%;
+        height: 50%;
+      }
+      .listparasprice{
+        margin-left: 15rem;
+        margin-right: 0rem;
+        display: inline;
+    }
+    .listparasname{
+        margin-right: 5rem;
+        text-align:start;
+        font-size: 2.1rem;
+       display: inline;
+    }
+    .listparasbutton{
+        margin-top: 1rem;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+     }
+     .listparasdesc{
+        font-size: 1.6rem;
+    }
+     
+}

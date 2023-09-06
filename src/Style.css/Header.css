@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+
+
+.navlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.navbar-conainer{
+
+    width: 99vw;
+    margin-bottom: 2rem;
+    z-index: 12;
+    background-color: #D8D9DA;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 9rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.navlist{
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50rem;
+}
+.visible ul li{
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.7rem;  
+    text-decoration: none;
+}
+.visible ul li a{
+    text-decoration: none;
+}
+.visible ul li:hover{
+    color: green;
+    transform: scale(1.03);
+}
+.visible ul li span{
+    position: absolute;
+    bottom:2rem;
+    font-size: 3rem;
+}
+.nav-logo img{
+    margin-left: 2.9rem;
+    height: 10rem;
+    width: 20rem;
+}
+.nav-logo img:hover{
+     transform: scaleX(1.05);
+}
+.bar{
+    display: none; 
+    margin-right: 2rem;
+}
+.icon{
+    font-size: 4rem;
+   cursor: pointer;
+}
+.carticon{
+    font-size: 3rem;
+}
+.dropdown{
+    position: relative;
+    display: none;
+   height: 28rem;
+   width: 100%;
+   background-color: black;
+   transition: all 6s linear;
+   font-family: 'Ubuntu', sans-serif;
+   z-index: 9999;
+}
+.dropdown-list{
+   padding-top: 3rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5;
+    height: 12rem;
+    color: white;
+    height: 100%;
+    width: 100%;
+    
+}
+.dropdown-list ul li{
+    position: relative;
+    padding: 1rem 0;
+    font-size: 2rem;
+    list-style-type: none;
+    background-color: black;
+    cursor: pointer;
+}
+.dropdown-list ul li:hover{
+    color: green;
+    transform: scale(1.03);
+}
+.dropdown-list ul li i{
+    background-color: black;
+}
+.dropdown-list ul li span{
+    position: absolute;
+    background-color: black;
+    top: 1%;
+    right: 1%;
+    font-size: 2.5rem;
+}
+
+
+
+@media (max-width: 992px) {
+    html{
+        font-size: 52.5%;
+    }
+    .visible {
+        display: none;
+      background-color: blue;
+    }
+     .bar{
+        display: block;  
+    }
+    .nav-logo img{
+        height: 10rem;
+       width: 15rem;
+    }
+   .dropdown{
+    display: block;
+   }
+
+  }

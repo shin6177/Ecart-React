@@ -1,0 +1,16 @@
+.trusted{
+    width: 99vw;
+}
+.trusted-container{
+    margin: auto;
+     width: 80%;
+     flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+        height: 40rem;
+}
+.trusted-container img{
+    height: 12rem;
+   
+}

@@ -1,0 +1,31 @@
+.Contact-title{
+    font-size: 4rem;
+    text-align: center;
+    margin: 4.5rem 0;
+}
+
+.contact-map{
+    width: 99vw;
+    height: 55vh;
+}
+.formContact{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formContact input{
+    padding: 0.8rem;
+    width: 50rem;
+    font-size: 2rem;
+    margin: 1rem 0;
+    border:2px solid blue;
+}
+.formContact textarea{
+    padding: 0.8rem;
+    width: 50rem;
+    font-size: 2rem;
+    margin: 1rem 0;
+    border:2px solid blue;
+}

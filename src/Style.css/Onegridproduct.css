@@ -1,0 +1,32 @@
+.card{
+    margin: 2rem;
+    position: relative;
+    height: 25rem;
+    width: 30rem;
+    background-color: #CEDEBD;
+}
+.card img{
+    margin: 2rem;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: 80%;
+    transition: all 0.5s ease-out;
+}
+.card img:hover{
+    transform: scale(1.07);
+}
+.list{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.catargory{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    padding: 0.1rem 0.7rem;
+    border-radius: 10rem;
+    background-color: white;
+    color: rgb(68, 151, 184);
+    font-size: 2.2rem;
+}

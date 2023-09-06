@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ecart-react/static/css/main.a63b7d29.css",
+    "main.js": "/Ecart-react/static/js/main.466759ce.js",
+    "static/js/787.9634d9b0.chunk.js": "/Ecart-react/static/js/787.9634d9b0.chunk.js",
+    "index.html": "/Ecart-react/index.html",
+    "main.a63b7d29.css.map": "/Ecart-react/static/css/main.a63b7d29.css.map",
+    "main.466759ce.js.map": "/Ecart-react/static/js/main.466759ce.js.map",
+    "787.9634d9b0.chunk.js.map": "/Ecart-react/static/js/787.9634d9b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a63b7d29.css",
+    "static/js/main.466759ce.js"
+  ]
+}
